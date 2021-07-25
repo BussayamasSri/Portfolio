@@ -1,0 +1,61 @@
+.content{
+    margin: 100px 0px;
+}
+
+.card-content{
+    box-shadow: 0 4px 8px 0 rgba(206, 201, 201, 0.2), 0 6px 20px 0 rgba(206, 201, 201, 0.2);
+    border-radius: 15px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.solid{
+    height: 20px;
+    border-radius: 5px;
+    background: #636FA4; /* For browsers that do not support gradients */        
+      background: linear-gradient(90deg, #948FA9, #E8CBC0); /* For Safari 5.1 to 6.0 */
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    background: #636FA4; /* For browsers that do not support gradients */        
+      background-image: linear-gradient(to bottom right,#948FA9, #E8CBC0); /* For Safari 5.1 to 6.0 */
+    border-radius: 50%;
+}
+
+.line-rigth{
+    border-right: 1px solid #DDDDDD; 
+   ;
+}
+
+.line-left{
+    border-left: 1px solid #DDDDDD; 
+    height: 25vh;
+}
+
+.card-view{
+    box-shadow: 0 4px 8px 0 rgba(206, 201, 201, 0.2), 0 6px 20px 0 rgba(206, 201, 201, 0.2);
+    border-radius: 15px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.card-view:hover{
+    box-shadow: 0 4px 8px 0 #E8CBC0, 0 6px 20px 0 #E8CBC0;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+a{  
+    display: block;
+    text-decoration: none;
+    color: gray;
+    padding: .5rem 1rem;
+    text-align: center;
+  }
+
+a:hover {
+    color: #E8CBC0;
+}
